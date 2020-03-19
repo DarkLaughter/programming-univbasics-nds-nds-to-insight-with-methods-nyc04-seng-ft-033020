@@ -6,7 +6,7 @@ require 'directors_database'
 def gross_for_director(director_data)
 
   gross = 0;
-  gross_length = director_data[:name][:movies].length
+  gross_length = director_data[:name][1][:movies].length
   counter = 0;
 
   while counter < gross_length do

@@ -9,7 +9,7 @@ def gross_for_director(director_data)
   counter = 0;
 
   while counter < director_data[:movies] do
-    gross += director_data[:movies][counter][:worldwide_grosses]
+    gross += director_data[:movies][counter][:worldwide_gross]
     counter += 1
   end
 

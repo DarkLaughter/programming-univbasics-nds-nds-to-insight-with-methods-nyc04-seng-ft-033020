@@ -23,7 +23,7 @@ end
 def directors_totals(nds)
   directors_total = {}
 
-  #directors_total
+  directors_total
 end
 
 
